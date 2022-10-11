@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*******header css start*******/
+header{
+	background-image: url(../images/hills.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #00000085;
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+}
+header .navbar-brand h1{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+header .navbar-brand span{
+    display: block;
+    font-size: 20px;
+}
+header .container-fluid {
+	padding: 250px 0px;
+}
+header .content{}
+header .content h3{
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+header .content span{
+	background-color: #FB2056;
+	height: 2px;
+	width: 65px;
+	display: inline-block;
+	margin: 10px 0px;
+}
+header .content h1{
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+header .content a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #fff;
+	background: #FB2056;
+	padding: 8px 25px;
+	border-radius: 25px;
+	display: inline-block;
+}
+
+/*******header css end*******/
+
+.quote-section{
+	background-color: #b1b1b1;
+}
+.quote-section .quote{}
+.quote-section .quote img{
+	filter: invert(1);
+}
+.quote-section .quote h3{
+    font-size: 45px;
+    font-weight: 500;
+    color: #000;
+    line-height: 50px;
+}
+.quote-section .quote h4{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 6px 5px 5px black;
+}
+
+/*******event section css end*******/
+.event-section{}
+.event-section h1{
+    font-size: 40px;
+}
+.event-section .event{}
+.event-section .event img{}
+.event-section .event h1{
+    font-size: 25px !important;
+    font-weight: 500;
+    color: #000;
+}
+.event-section .event p{
+    color: #6E82B0;
+    font-size: 18px;
+}
+.event-section .event a{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #FB2056;
+    letter-spacing: 4px;
+}
+/*******event section css end*******/
+
+
+
+.navbar-dark .navbar-nav a{
+
+font-size: 20px;
+
+font-weight: 500;
+
+letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgb(255 255 255);
+}
+
+
+@media (max-width: 575px){
+	.quote-section .quote img {
+    width: 150px;
+	}
+}
+
