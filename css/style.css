@@ -92,7 +92,9 @@ header .content a{
     font-size: 40px;
 }
 .event-section .event{}
-.event-section .event img{}
+.event-section .event img{
+    box-shadow: 10px 10px 9px 0px #00000078;
+}
 .event-section .event h1{
     font-size: 25px !important;
     font-weight: 500;
